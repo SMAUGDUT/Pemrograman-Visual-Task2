@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>503</width>
+    <height>546</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>421</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/image/th.jfif);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>300</y>
+     <width>75</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color:rgb(170, 85, 0);
+	border-radius: 10px;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:500;
+}
+
+QPushButton:hover {
+	background-color:rgb(0, 0, 0);
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(30, 127, 255); */
+}
+
+QPushButton {
+    background-color: rgb(30, 127, 255);
+	border-radius: 10px;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:500;
+}
+
+QPushButton:hover {
+	background-color: rgb(180, 181, 255);
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(30, 127, 255); */
+}</string>
+   </property>
+   <property name="text">
+    <string>pesan</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="Ukuran_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>190</y>
+     <width>291</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0, 0, 0, 0);
+border:none;
+border-bottom:2px solid rgba(105, 118, 132, 255);
+color:rgba(255, 255, 255, 230);
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Small</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Large</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="Jenis_Coffe_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>150</y>
+     <width>291</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0, 0, 0, 0);
+border:none;
+border-bottom:2px solid rgba(105, 118, 132, 255);
+color:rgba(255, 255, 255, 230);
+</string>
+   </property>
+   <property name="maxVisibleItems">
+    <number>10</number>
+   </property>
+   <item>
+    <property name="text">
+     <string>Latte</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Cappuccino</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Coffe Vietnam</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Good Day</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Caramel Macchiato</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QSpinBox" name="Jumlah_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>230</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>51</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(20, 0, 0, 0);
+border:none;
+border-bottom:2px solid rgba(205, 118, 132, 255);
+color:rgba(205, 255, 255, 230);
+</string>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Nama_pelanggan_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>110</y>
+     <width>291</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0, 0, 0, 0);
+border:none;
+border-bottom:2px solid rgba(105, 118, 132, 255);
+color:rgb(0, 255, 255);
+
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Username</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
